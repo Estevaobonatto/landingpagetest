@@ -49,8 +49,10 @@
         <Button class="button-card">SAIBA MAIS</Button>
       </div>
     </section>
-    <footer>
-    <h1>Entre em Contato</h1>
+    
+    
+    <section id="contato" class="contact">
+      <h1>Entre em Contato</h1>
       <form>
         <p>E-mail</p>
         <input type="email"/>
@@ -60,6 +62,17 @@
         <textarea></textarea>
         <button type="submit">Enviar Informações</button>
       </form>
+    </section>
+    
+    <footer class="footer-p">
+      <img src="../assets/logo.png" alt="">
+      <p>Copyright © 2024. Todos os Direitos Reservados.</p>
+      <div class="footer-links">
+        <a href="#sobre" class="app-bar-action">SOBRE</a>
+        <a href="#contato" class="app-bar-action">CONTATO</a>
+        <a href="#experimente" class="app-bar-action">TESTE AGORA</a>
+      </div>
     </footer>
+    
   </div>
 </template>
