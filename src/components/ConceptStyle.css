@@ -18,6 +18,7 @@
     margin: 0;
     font-size: 30px;
     color: #7f5af0;
+    margin-left: 10px;
   }
   
   .app-bar-title img {
@@ -27,6 +28,7 @@
   .app-bar-actions {
     display: flex;
     gap: 30px;
+    margin-right: 10px;
   }
   
   .app-bar-action {

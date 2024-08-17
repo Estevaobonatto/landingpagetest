@@ -4,7 +4,7 @@
 
 <template>
   <div class="">
-    <header class="app-bar">
+    <header id="home" class="app-bar">
       <div class="app-bar-title">
         <h1 href="#home">RAZY SOFTWARE</h1>
       </div>
@@ -65,7 +65,7 @@
     </section>
     
     <footer class="footer-p">
-      <img src="../assets/logo.png" alt="">
+      <a href="#home"><img src="../assets/logo.png" alt=""></a>
       <p>Copyright © 2024. Todos os Direitos Reservados.</p>
       <div class="footer-links">
         <a href="#sobre" class="app-bar-action">SOBRE</a>
