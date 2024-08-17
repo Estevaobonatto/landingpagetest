@@ -1,128 +1,65 @@
 <script setup>
+  import './ConceptStyle.css';
 </script>
 
 <template>
-  <div class="concept">
+  <div class="">
     <header class="app-bar">
       <div class="app-bar-title">
-        <img src="" alt="GEPETTO">
+        <h1 href="#home">RAZY SOFTWARE</h1>
+      </div>
+      <div class="app-bar-title">
+        <img src="../assets/logo.png" alt="GEPETTO">
       </div>
       <div class="app-bar-actions">
-        <a href="#" class="app-bar-action">Sobre</a>
-        <a href="#" class="app-bar-action">Contato</a>
-        <a href="#" class="app-bar-action">Login</a>
+        <a href="#sobre" class="app-bar-action">SOBRE</a>
+        <a href="#contato" class="app-bar-action">CONTATO</a>
+        <a href="#experimente" class="app-bar-action">TESTE AGORA</a>
       </div>
     </header>
     
-    <section>
+    <section class="container-p">
       <h1>GEPETTO</h1>
       <p>O seu software de Gestão</p>
       <button>SAIBA MAIS</button>
     </section>
     
+    <section class="img-concept">
+      <img src="../assets/FINANCEIRO.png" alt="">
+    </section>
+    
+    <div>
+      <h1 class="title-features">Para Todos Os Gostos</h1>
+    </div>
+    
     <section class="features">
-      <div class="feature-card">Gestão Empresarial Completa</div>
-      <div class="feature-card">Gestão de Pequenos Negócios</div>
-      <div class="feature-card">Gestão Para Comércios Locais</div>
+      <div class="feature-card">
+        <h2>Gestão Empresarial Completa</h2>
+        <p>Com funcionalidades avançadas, nosso software oferece soluções integradas para otimizar processos, melhorar a eficiência e aumentar a produtividade. </p>
+        <Button>SAIBA MAIS</Button>
+      </div>
+      <div class="feature-card">
+        <h2>Gestão de Pequenos Negócios</h2>
+        <p>Com funcionalidades avançadas, nosso software oferece soluções integradas para otimizar processos, melhorar a eficiência e aumentar a produtividade. </p>
+        <Button class="button-card">SAIBA MAIS</Button>
+      </div>
+      <div class="feature-card">
+        <h2>Gestão Para Comércios Locais</h2>
+        <p>Com funcionalidades avançadas, nosso software oferece soluções integradas para otimizar processos, melhorar a eficiência e aumentar a produtividade. </p>
+        <Button class="button-card">SAIBA MAIS</Button>
+      </div>
     </section>
     <footer>
+    <h1>Entre em Contato</h1>
       <form>
-        <input type="email" placeholder="E-mail" />
-        <input type="text" placeholder="Nome" />
-        <textarea placeholder="Mais Comentários"></textarea>
+        <p>E-mail</p>
+        <input type="email"/>
+        <p>Nome</p>
+        <input type="text"/>
+        <p>Mensagem</p>
+        <textarea></textarea>
         <button type="submit">Enviar Informações</button>
       </form>
     </footer>
   </div>
 </template>
-
-<style scoped>
-
-  /*
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  */
-
-.concept {
-  background-color: #191919;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-}
-
-header h1 {
-  color: #7f5af0;
-}
-
-button {
-  background-color: #7f5af0;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.dashboard {
-  display: flex;
-  margin-top: 20px;
-}
-
-.menu {
-  flex: 1;
-  background-color: #191919;
-  padding: 10px;
-}
-
-.menu ul {
-  list-style: none;
-  padding: 0;
-}
-
-.menu li {
-  margin: 10px 0;
-  color: #7f5af0;
-}
-
-.content {
-  flex: 3;
-  padding: 10px;
-}
-
-.financial-summary div {
-  margin: 10px 0;
-}
-
-.features {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.feature-card {
-  background-color: #7f5af0;
-  padding: 20px;
-  border-radius: 5px;
-  width: 30%;
-  gap: 10px;
-}
-
-footer {
-  margin-top: 20px;
-}
-
-form input, form textarea {
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-}
-
-form button {
-  background-color: #7f5af0;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-</style>
