@@ -19,8 +19,8 @@
     </header>
     
     <section class="container-p">
-      <h1>GEPETTO</h1>
-      <p>O seu software de Gestão</p>
+      <h1>RAZY GEPETTO</h1>
+      <p>Por uma gestão simplificada e eficiente</p>
       <button>SAIBA MAIS</button>
     </section>
     
