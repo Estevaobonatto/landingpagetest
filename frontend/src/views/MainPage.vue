@@ -1,5 +1,5 @@
 <script setup>
-  import '../styles/ConceptStyle.css';
+  import '../components/ConceptStyle.css';
   import HeaderTop from '../components/HeaderTop.vue';
   import Contact from '../components/Contact.vue';
   import FooterDown from '../components/FooterDown.vue';
