@@ -1,5 +1,5 @@
 <script setup>
-  import './ConceptStyle.css';
+  import '../styles/ConceptStyle.css';
 </script>
 
 <template>

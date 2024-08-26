@@ -1,5 +1,5 @@
 <script setup>
-  import './ConceptStyle.css';
+  import '../styles/ConceptStyle.css';
 </script>
 
 <template>
@@ -12,9 +12,12 @@
         <img src="../assets/logo.png" alt="GEPETTO">
       </div>
       <div class="app-bar-actions">
-        <a href="Sobre.vue" class="app-bar-action">SOBRE</a>
-        <a href="#contato" class="app-bar-action">CONTATO</a>
-        <a href="#experimente" class="app-bar-action">TESTE AGORA</a>
+<!-- Substitua o link para a página "Sobre" -->
+        <router-link to="/sobre" class="app-bar-action">SOBRE</router-link>
+
+        <router-link to="#contato" class="app-bar-action">CONTATO</router-link>
+
+        <router-link to="/experimente" class="app-bar-action">TESTE</router-link> 
       </div>
     </header>
   </div>

@@ -1,28 +1,28 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import MainPage from './components/MainPage.vue'
-import Sobre from './components/Sobre.vue'
+import MainPage from './views/MainPage.vue'
+import Sobre from './views/Sobre.vue'
 
 
 Vue.use(VueRouter)
 
 const routes = [
     {
-        path: './components/MainPage.vue',
+        path: './',
         name: 'mainpage',
         component: MainPage
     },
     {
-        path: './components/Sobre.vue',
+        path: './sobre',
         name: 'sobre',
         component: Sobre
     }
 ]
 
 const router = new VueRouter({
-mode: 'history',
-base: 'http://localhost:5173',
-routes
+    mode: 'history',
+    base: process.env.BASE_URL, // Use a variável de ambiente para a base
+    routes
 })
 
 export default router
